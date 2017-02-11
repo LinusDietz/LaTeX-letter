@@ -2,6 +2,10 @@
 
 This is a simple template for writing letters using LaTeX.
 
+## Preview
+
+See [letter.pdf](blob/master/letter.pdf).
+
 ## Features
 * Easy to use
 
