@@ -23,6 +23,7 @@ Some city\\
 
 * Easy to adapt
 * Looks good
+* Placement suitable for a window letter envelope
 * Fold between subject and text
 
 ## Contribute
