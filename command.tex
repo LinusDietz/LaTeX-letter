@@ -1,0 +1,29 @@
+\documentclass[a4paper, \lang , pdftex, 12pt]{scrartcl}
+\usepackage{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage{multicol}
+\usepackage{marvosym}
+
+\setlength{\parskip}{1em}
+\setlength{\parindent}{0pt}
+
+\newcommand{\address}{
+\thispagestyle{empty}
+\vspace*{5mm}
+\begin{multicols}{2}
+{\textsc{\scriptsize \underline{\name , \street , \zipCity}}}\\[1em]
+\recipient
+
+\hfill \large {\textsc{\textbf{\name}}}\\
+\normalsize
+\begin{flushright}
+\hfill \street \\
+\hfill \zipCity \\
+\hfill \Mobilefone ~\mobile\\
+\hfill \Email ~\email\\
+\end{flushright}
+\end{multicols}
+\vspace{1cm}
+}
